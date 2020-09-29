@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GPA_R01832537_CALCULATOR</string>
+    <string name="gpa_calculator">GPA CALCULATOR</string>
+    <string name="your_final_gpa">Your Final GPA:</string>
+    <string name="compute_gpa">Compute GPA</string>
+    <string name="clear_gpa">Clear</string>
+    <string name="course_5_grade">Course 5 Grade: (0.0 - 100.0)</string>
+    <string name="course_4_grade">Course 4 Grade: (0.0 - 100.0)</string>
+    <string name="course_3_grade">Course 3 Grade: (0.0 - 100.0)</string>
+    <string name="course_2_grade">Course 2 Grade: (0.0 - 100.0)</string>
+    <string name="course_1_grade">Course 1 Grade: (0.0 - 100.0)</string>
+</resources>

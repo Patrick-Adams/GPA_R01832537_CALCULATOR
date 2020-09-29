@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#979"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvGPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="@string/gpa_calculator"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/course1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="10dp"
+            android:hint="@string/course_1_grade" />
+
+        <EditText
+            android:id="@+id/course2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="10dp"
+            android:hint="@string/course_2_grade" />
+
+        <EditText
+            android:id="@+id/course3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="10dp"
+            android:hint="@string/course_3_grade" />
+
+        <EditText
+            android:id="@+id/course4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="10dp"
+            android:hint="@string/course_4_grade" />
+
+        <EditText
+            android:id="@+id/course5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="10dp"
+            android:hint="@string/course_5_grade" />
+
+
+        <Button
+            android:id="@+id/computeGPA"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"
+            android:background="#009"
+            android:text="@string/compute_gpa"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/finalGPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
